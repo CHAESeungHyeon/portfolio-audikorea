@@ -1,0 +1,326 @@
+/* top Banner */
+/* top */
+#topBanner{
+  width: 100%;
+  min-width: 1200px;
+  height: 974px;
+  background: url(../img/topbanner.png) center/cover; 
+}
+#topBanner .container{
+  display: flex;
+  flex-direction: column;
+  gap: 540px;
+padding: 0;
+}
+#topBanner .top{
+margin-top: 24px;
+}
+
+
+#topBanner .top h1, #topBanner .top h2{
+  color: #111;
+  font-variation-settings: "wght" 100, "wdth" 130;
+}
+
+#topBanner .top >h2{
+  font-size: 40px;
+}
+#topBanner .top > h1{
+  margin-top: 24px;
+  margin-left: 30px;
+  font-size: 80px;
+}
+/* ======================================================= */
+
+/* topBanner bottom */
+
+#topBanner .bottom h1{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* ======================================================= */
+
+/* topBanner bottom button */
+#topBanner .bottom .button {
+  display: flex;
+  gap: 30px;
+}
+
+#topBanner .bottom a{
+  font-size: 16px;
+  border: 1px solid #fff;
+  padding: 16px 32px;
+  display: flex;
+}
+#topBanner .bottom .button .make{
+  background-color: #111;
+  border: none;
+}
+
+#topBanner .bottom img{
+  width: 24px;
+  margin-right: 12px;
+}
+
+
+/* ======================================================= */
+
+/* topBanner bottom click */
+
+#topBanner .click{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 37px;
+}
+
+#topBanner .click li{
+  width: 12px;
+  height: 12px;
+  background-color: #888;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#topBanner .click .active{
+  background-color: #fff;
+}
+
+
+/* ======================================================= */
+
+/* modelCardBanner */
+#modelCardBanner{
+  width: 100%;
+  min-width: 1200px;
+  height: 1160px;
+}
+
+#modelCardBanner .container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+#modelCardBanner .container h2{
+padding: 130px 0 80px;
+font-size: 36px;
+}
+
+#modelCardBanner  .model{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+#modelCardBanner .model  .modelCard{
+  width: calc((100% - 80px) / 3);
+  background-color: #2B2B2F;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#modelCardBanner .container .modelCard .card{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 30px;
+  top: 17px;
+}
+
+
+#modelCardBanner .container .model .modelCard .card .text1{
+  font-size: 12px;
+  height: 15px;
+  margin-bottom: 8px;
+}
+#modelCardBanner .container .model .modelCard .card .text2{
+  font-size: 24px;
+}
+
+#modelCardBanner .container .model .modelCard img{
+  width: 310px;
+  margin: 128px 30px 0;
+}
+
+#modelCardBanner .container .model .modelCard a{
+  font-size: 16px;
+  border: 1px solid #fff;
+  width: 310px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 47px 30px 40px;
+}
+
+/* modelCardBanner click */
+
+#modelCardBanner > .container > .click{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+#modelCardBanner .container .click > li{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #888;
+}
+
+#modelCardBanner .container .click > .active{
+  background-color: #fff;
+}
+
+
+/* ======================================================= */
+
+/* middleBanner */
+#middleBanner{
+  width: 100%;
+  min-width: 1200px;
+  background: url(../img/middle\ banner.png) center/cover;
+  height: 908px;
+}
+
+#middleBanner .container{
+  padding: 142px 20px;
+}
+
+#middleBanner .txtbox{
+  display: flex;
+  flex-direction: column;
+}
+#middleBanner .txtbox h1{
+  font-size: 50px;
+  font-weight: normal;
+}
+#middleBanner .txtbox .submit{
+  font-size: 20px;
+  font-weight: normal;
+  margin: 35px 0;
+}
+#middleBanner .txtbox .button{
+  background-color: #505067;
+  border-radius: 85px;
+  cursor: pointer;
+  width: 138px;
+  padding: 14px 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+
+/* ======================================================= */
+/* middleCard */
+#middleCard{
+  width: 100%;
+  min-width: 1200px;
+}
+#middleCard .container h1{
+  text-align: center;
+  font-size: 46px;
+  padding: 108px 0 70px;
+}
+
+#middleCard .serviceCard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 33px;
+}
+#middleCard .serviceCard article{
+  position: relative;
+}
+#middleCard .serviceCard article .serviceTxt{
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 36px;
+  white-space: nowrap;
+  font-variation-settings: "wgth" 100, "wdth" 130;
+  font-family: "AudiType", "gmarketM";
+}
+#middleCard .serviceCard article .serviceTxt a{
+  font-size: 18px;
+  margin-top: 16px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+  font-weight: 300;
+  font-family: "AudiType";
+}
+
+#middleCard .serviceCard img{
+  width: 500px;
+}
+
+
+
+
+
+/* ======================================================= */
+/* bottomContent */
+#bottomContent{
+  width: 100%;
+  min-width: 1200px;
+}
+
+#bottomContent .container h1{
+  text-align: center;
+  font-size: 36px;
+  padding: 60px 0 120px;
+}
+#bottomContent .NewsCard{
+  display: flex;
+  justify-content: center;
+  gap: 78px;
+  height: 556px;
+}
+
+#bottomContent .NewsCard .Card img, #bottomContent .NewsCard .Card h3, #bottomContent .NewsCard .Card span{
+  margin-bottom: 30px;
+  white-space: nowrap;
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+}
+#bottomContent .NewsCard .Card span{
+  font-size: 15px;
+  color: #aaa;
+  margin-bottom: 37px;
+  display: inline-block;
+}
+
+#bottomContent .NewsCard .Card:nth-child(2) span{
+  margin-bottom: 19px;
+}
+
+#bottomContent .NewsCard .Card a{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#bottomContent img{
+  width: 556px;
+}
+

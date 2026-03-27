@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "AudiType";
+  src: url("AudiTypeVF_4.04.woff2") format("woff2");
+  font-weight: 100 900;   /* ← 중요: 범위로 선언 */
+  font-stretch: 75% 125%; /* wdth 축이 있을 경우 */
+  font-style: normal;
+   unicode-range: U+0000-00FF, U+0030-0039; /* 기본 라틴 + 숫자 */
+}
+@font-face {
+  font-family: "gmarketbold";
+  src: url("GmarketSansTTFBold.ttf") format("ttf");
+  font-style: normal;
+    font-weight: normal;
+    unicode-range: U+AC00-D7A3; /* 한글 음절 */
+    }
+@font-face {
+  font-family: "gmarketmedium";
+  src: url("GmarketSansTTFMedium.ttf") format("ttf");
+  font-style: normal;
+    font-weight: normal;
+    unicode-range: U+AC00-D7A3; /* 한글 음절 */
+    }
+@font-face {
+  font-family: "gmarketlight";
+  src: url("GmarketSansTTFLight.ttf") format("ttf");
+  font-style: normal;
+    font-weight: normal;
+    unicode-range: U+AC00-D7A3; /* 한글 음절 */
+    }

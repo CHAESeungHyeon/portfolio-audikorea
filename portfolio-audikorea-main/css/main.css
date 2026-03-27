@@ -1,0 +1,405 @@
+#topBanner{
+  width: 100%;
+  min-width: 1200px;
+  height: 974px;
+  background: url(../A6e-tronimg/topbanner.png) center/cover;
+}
+
+#topBanner .container{
+  padding: 62px 0 52px;
+}
+#topBanner .container > h2{
+  font-size: 40px;
+  font-weight: 100;
+  color: #111;
+  margin-bottom: 33px;
+}
+#topBanner .container > h1{
+  font-weight: 100;
+  color: #111;
+  font-size: 80px;
+  margin-left: 25px;
+}
+
+#topBanner .container .underpannel{
+  margin-top: 500px;
+}
+
+#topBanner .container .underpannel p{
+  font-size: 50px;
+}
+
+#topBanner .container .underpannel .siteBtn{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 13px;
+}
+#topBanner .container .underpannel .siteBtn li{
+border: 1px solid #fff;
+padding: 16px 32px;
+}
+#topBanner .container .underpannel .siteBtn li:nth-child(1){
+background-color: #000;
+border: none;
+}
+#topBanner .container .underpannel .siteBtn li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+#topBanner .container .underpannel .catalogbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 37px;
+}
+#topBanner .container .underpannel .catalogbtn li{
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #888;
+}
+#topBanner .container .underpannel .catalogbtn .active{
+  background-color: #fff;
+}
+
+
+#topBanner .container .underpannel .siteBtn img{
+  width: 24px;
+  margin-right: 12px;
+}
+
+
+/* ====================================================== */
+/* topCard */
+#topCard{
+  width: 100%;
+  min-width: 1200px;
+}
+
+#topCard .container{
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#topCard .title{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#topCard .title h1{
+  font-size: 62px;
+  font-weight: 100;
+}
+
+#topCard .title h3{
+  font-weight: 300;
+font-size: 30px;
+margin-top: 15px;
+}
+
+
+#topCard .pointCard{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#topCard .pointCard article{
+  width: 580px;
+}
+#topCard .pointCard article p{
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+#topCard .pointCard img{
+  width: 580px;
+}
+
+/* ====================================================== */
+/* middleCard */
+#middleCard{
+  width: 100%;
+  min-width: 1200px;
+}
+
+#middleCard .container{
+  padding: 90px 0 248px;
+}
+
+#middleCard h1{
+  font-size: 47px;
+  font-weight: 300;
+  font-family: "AudiType", "gmarketM";
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+#middleCard .cardbox{
+  width: 100%;
+}
+
+#middleCard .cardbox article{
+  display: flex;
+  gap: 40px;
+}
+#middleCard .cardbox article:nth-child(2){
+  margin-top: 30px;
+}
+#middleCard .cardbox article .txtbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#middleCard .cardbox article .txtbox h2{
+  font-size: 37px;
+  font-family: "AudiType", "gmarketM";
+  font-weight: 300;
+}
+#middleCard .cardbox article .txtbox p{
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 55px;
+  color: #999;
+}
+
+#middleCard img{
+  width: 645px;
+}
+
+/* =========================================== */
+/* designBanner */
+#designBanner{
+  width: 100%;
+  min-width: 1200px;
+  position: relative;
+  overflow: hidden;
+  height: 731px;
+  background: url(../A6e-tronimg/Frame\ 106.png) center/cover;
+}
+#designBanner .container{
+  padding: 0;
+}
+#designBanner h1{
+  font-size: 40px;
+  font-family: "AudiType", "gmarketM";
+  font-weight: 300;
+  color: #111;
+  padding: 40px 0;
+}
+#designBanner .container .view{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 100px;
+  position: relative;
+}
+
+#designBanner .container .view .nav-btn{
+font-size: 20px;
+background-color: #394356;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+position: absolute;
+  top: 25%;
+  transform: translateY(-50%);
+}
+
+.nav-btn.left{
+  left: 0;
+}
+.nav-btn.right{
+  right: 0;
+}
+
+#designBanner img{
+  width: 80%;
+}
+
+/* 하단 컨트롤 */
+#designBanner .controls{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+#designBanner .colors{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #7B8292;
+  padding: 10px 14px;
+  border-radius: 999px;
+  margin-right: 198px;
+}
+
+#designBanner .chip{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#designBanner .chip.white{ background:#fff; }
+#designBanner .chip.black{ background:linear-gradient(175deg, #000 29%, #bdbdbd 35%, #000 41%);}
+#designBanner .chip.gray{ background:linear-gradient(175deg, #666 24%, #bdbdbd 35%, #666 49%); }
+#designBanner .chip.navy{ background:linear-gradient(175deg, #000c25 0%, #1d3c4d 24%, #bdbdbd 35%, #1d2c4d 43%, #000c25 100%); }
+#designBanner .chip.silver{ background:linear-gradient(175deg, #3a3a3a 0%, #a7a7a7 24%, #bdbdbd 35%, #a7a7a7 43%, #3a3a3a 100%); }
+#designBanner .chip.beige{ background:linear-gradient(175deg, #656565 0%, #bcb49e 24%, #d4d4d4 35%, #bcb49e 43%, #656565 100%); }
+#designBanner .chip.teal{ background:linear-gradient(175deg, #00333c 0%, #007184 24%, #d4d4d4 35%, #007184 43%, #00333c 100%); }
+#designBanner .chip.dark{ background:linear-gradient(175deg, #3d3d3d 24%, #d4d4d4 35%, #3d3d3d 43%); }
+
+#designBanner .chip.active{
+  outline: 2px solid #fff;
+  border: 2px solid #394356;
+}
+
+#designBanner .cta{
+  font-size: 20px;
+  padding: 15px 22px;
+  border-radius: 47px;
+  background-color: #788292;
+  font-weight: 300;
+}
+
+/* ======================================= */
+/* middlebanner */
+
+#middlebanner{
+width: 100%;
+min-width: 1200px;
+padding: 200px 0 0;
+}
+
+#middlebanner .container{
+  width: 100%;
+  min-width: 1200px;
+  height: 1080px;
+  background: url(../A6e-tronimg/Frame\ 103.png) center/cover;
+  padding: 170px 0 0;
+}
+
+#middlebanner .container h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  font-family: "AudiType", "gmarketM";
+}
+
+
+/* ========================================== */
+/* optionCard */
+/* 전체 섹션 배경 */
+#optionCard{
+  color:#fff;
+}
+
+#optionCard .container{
+  width:min(1200px, 100%);
+  margin:auto;
+  padding:120px 20px;
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap:80px 60px;
+}
+
+/* 공통 카드 */
+#optionCard .card{
+  display:flex;
+  flex-direction:column;
+  gap:26px;
+}
+
+/* 위의 큰 카드들은 2칸 차지 */
+#optionCard .card--wide{
+  grid-column:1 / -1;
+}
+
+/* 이미지 박스 */
+#optionCard .img{
+  width:100%;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+#optionCard .img img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+/* 텍스트 */
+#optionCard .txt{
+  max-width:900px;
+  margin:0 auto;
+  text-align: center;
+}
+
+#optionCard h3{
+  font-size:34px;
+  font-weight:300;
+  margin-bottom:12px;
+}
+
+#optionCard p{
+  font-size:20px;
+  line-height:1.4;
+  color:#909090;
+}
+
+/* 아래 작은 카드들은 텍스트 크기 살짝 줄이기 */
+#optionCard .card:not(.card--wide) .txt{
+  text-align: start;
+}
+#optionCard .card:not(.card--wide) h3{
+  text-align: center;
+  font-size:34px;
+}
+#optionCard .card:not(.card--wide) p{
+  font-size:20px;
+}
+
+/* 반응형 */
+@media (max-width: 768px){
+  #optionCard .container{
+    grid-template-columns:1fr;
+    gap:60px;
+  }
+  #optionCard .card--wide{
+    grid-column:auto;
+  }
+}
+
+
+/* ============================================ */
+/* bottomBanner */
+#bottomBanner{
+  width: 100%;
+  min-width: 1200px;
+}
+#bottomBanner h1{
+  padding: 280px 0 64px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+}
+#bottomBanner .container{
+  padding: 0;
+  width: 100%;
+  height: 900px;
+  background: url(../A6e-tronimg/Frame\ 104.png) center/cover;
+}
+
+
+
+
+
